@@ -23,8 +23,9 @@ function CounterHooks() {
       <button
         className="center-block"
         onClick={handleClick}>
-          {count}
+          Click Me
         </button>
+        <p>Clicked {count} times</p>
         <p className="center">
           at: {`${time.getHours()}:${time.getMinutes()} : ${time.getSeconds()}`}
         </p>
