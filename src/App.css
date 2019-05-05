@@ -1,0 +1,21 @@
+* {
+  text-align: center;
+}
+
+h3 {
+  font-family: fantasy;
+  text-decoration: underline;
+  text-shadow: 1px 1px papayawhip;
+}
+
+button {
+  padding: 1rem 3rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: black;
+}
+
+p {
+  font-family: monospace;
+  font-size: 1.4rem;
+}
