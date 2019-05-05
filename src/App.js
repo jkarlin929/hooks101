@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function CounterHooks() {
@@ -8,7 +8,11 @@ function CounterHooks() {
   const handleClick = () => {
     setCount(count + 1);
     setTime(new Date());
-  }
+  };
+
+  useEffect(() => {
+    console.log('useEffect first timer here.');
+  }, []);
 
   return (
     <div>
@@ -26,6 +30,6 @@ function CounterHooks() {
         </p>
     </div>
   );
-}
+};
 
 export default CounterHooks;
